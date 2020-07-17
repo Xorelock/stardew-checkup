@@ -1515,7 +1515,7 @@ window.onload = function () {
 					} else {
 						n = Number(crafted[r]);
 						if (n < 15) {
-							need.push('<li>' + wikify(r) + ' --' + (15 - n) + ' more</li>');
+							need.push('<li>' + wikify(r) + ' -- ' + (15 - n) + ' more</li>');
 						}
 					}
 				}
